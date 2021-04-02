@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:layout_height="wrap_content">
+
+
+
+<androidx.cardview.widget.CardView
+    android:elevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ValueX"
+                android:id="@+id/itemValueXid"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/itemValueYid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ValueY: "
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/itemValueZid"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ValueZ"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/itemDateId"
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</LinearLayout>

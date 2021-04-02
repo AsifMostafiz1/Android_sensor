@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9DAE1"
+    android:orientation="vertical"
+    tools:context=".AllSensorValueActivity">
+
+    <TextView
+        android:id="@+id/select_sensor_type"
+        android:background="#136978"
+        android:text="All Sensors Data"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+    </TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerViewId">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>
